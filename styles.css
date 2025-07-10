@@ -71,8 +71,22 @@ section {
     grid-area: col-section;
   }
 
-  .sectiion-2 {
+  .section-3 {
     grid-area: section-2;
+  }
+}
+
+@media (min-width: 950px) {
+  .container {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+  }
+
+  .section-1,
+  .section-3 {
+    align-self: center;
   }
 }
 
