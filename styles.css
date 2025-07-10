@@ -4,6 +4,106 @@
   --accent-card-2: hsl(0, 78%, 62%);
   --accent-card-3: hsl(34, 97%, 64%);
   --accent-card-4: hsl(212, 86%, 64%);
-  --bg-colour: hsl(212, 6%, 44%);
-  --txt-colour: hsl(234, 12%, 34%);
+  --txt-colour: hsl(212, 6%, 44%);
+  --heading-colour: hsl(234, 12%, 34%);
+}
+
+body {
+  background: hsl(212, 6%, 94%);
+  height: 100vh;
+  margin: 0;
+  font-family: var(--font-family);
+}
+
+/* TYPOGRAPHY */
+
+h1,
+p {
+  color: var(--txt-colour);
+}
+
+h2 {
+  color: var(--heading-colour);
+  font-weight: 600;
+}
+
+header h1 {
+  font-weight: 200;
+}
+
+h1,
+h2 {
+  font-size: 1.5rem;
+}
+
+/* LAYOUT */
+header,
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+/* HEADER */
+header {
+  padding-top: 2em;
+}
+
+header h1 {
+  margin-bottom: 0em;
+  text-align: center;
+}
+
+header h2 {
+  margin-top: 0;
+  text-align: center;
+}
+
+header p {
+  text-align: center;
+  margin-bottom: 4em;
+}
+
+/* SECTION CONTAINER */
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  padding-bottom: 2em;
+}
+
+.card {
+  background: white;
+  padding: 2em;
+  border-radius: 10px;
+  margin-top: 2em;
+  max-width: 276.8px;
+}
+
+.card-img {
+  margin-top: 1em;
+  margin-left: 65%;
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+.card-1 {
+  border-top: 5px solid var(--accent-card-1);
+}
+
+.card-2 {
+  border-top: 5px solid var(--accent-card-2);
+}
+
+.card-3 {
+  border-top: 5px solid var(--accent-card-3);
+}
+
+.card-4 {
+  border-top: 5px solid var(--accent-card-4);
 }
