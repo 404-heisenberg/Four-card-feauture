@@ -1,0 +1,9 @@
+:root {
+  --font-family: "Poppins", sans-serif;
+  --accent-card-1: hsl(180, 62%, 55%);
+  --accent-card-2: hsl(0, 78%, 62%);
+  --accent-card-3: hsl(34, 97%, 64%);
+  --accent-card-4: hsl(212, 86%, 64%);
+  --bg-colour: hsl(212, 6%, 44%);
+  --txt-colour: hsl(234, 12%, 34%);
+}
