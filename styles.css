@@ -59,8 +59,8 @@ section {
     grid-auto-columns: 1fr;
     column-gap: 1em;
     grid-template-areas:
-      "col-section section-1"
-      "col-section section-2";
+      "section-2 section-1"
+      "section-2 section-3";
   }
 
   .section-1 {
@@ -68,11 +68,11 @@ section {
   }
 
   .col-section {
-    grid-area: col-section;
+    grid-area: section-2;
   }
 
   .section-3 {
-    grid-area: section-2;
+    grid-area: section-3;
   }
 }
 
