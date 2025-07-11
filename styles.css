@@ -122,6 +122,7 @@ header p {
   border-radius: 10px;
   margin-top: 2em;
   max-width: 276.8px;
+  box-shadow: 0px 10px 20px hsl(212, 6%, 44%, 0.3);
 }
 
 @media (min-width: 800px) {
